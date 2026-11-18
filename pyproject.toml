@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rest-ascii"
+version = "0.6.1"
+description = "Rest - descanso de tela / wallpaper ASCII (buraco negro e outras artes) para terminal"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+rest = "rest.cli:main"
+
+[tool.setuptools]
+packages = ["rest"]
